@@ -3035,11 +3035,35 @@ button:focus:not(:focus-visible) {
   z-index: 1;
 }
 .tp-header__main-header {
-  margin-left: 375px;
+  margin-left: 290px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1399px) and (max-width: 1499px) {
   .tp-header__main-header {
-    margin-left: 295px;
+    margin-left: 250px;
+  }
+  .tp-header__menu ul li a{
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1309px) and (max-width: 1399px) {
+  .tp-header__main-header {
+    margin-left: 220px;
+  }.tp-header__menu ul li a {
+    font-size: smaller;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1309px) {
+  .tp-header__main-header {
+    margin-left: 190px;
+  }.tp-header__menu ul li a {
+    font-size: smaller;
+  }
+}
+@media only screen and (min-width: 1196px) and (max-width: 1273px) {
+  .tp-header__main-header {
+    margin-left: 170px;
+  }.tp-header__menu ul li a {
+    font-size: 0.75rem;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3129,7 +3153,7 @@ button:focus:not(:focus-visible) {
   }
 }
 .tp-header__bottom {
-  padding: 0 75px 0 60px;
+  /* padding: 0 75px 0 60px; */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-header__bottom {
@@ -7765,6 +7789,8 @@ button:focus:not(:focus-visible) {
   opacity: 0.1;
 }
 .tp-testimonial-2__item {
+  position: relative;
+  top:100px;
   padding: 30px 40px;
   overflow: hidden;
   background-color: rgb(255, 255, 255);
@@ -11422,6 +11448,9 @@ button:focus:not(:focus-visible) {
   font-size: 18px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .logoImage {
+      width: 60%;
+    }
   .contact__social .icon ul li a {
     margin-left: 0px;
   }
@@ -11588,4 +11617,18 @@ button:focus:not(:focus-visible) {
 .logoImage{
   width: 16%;
   padding-left: 50px;
+}
+.operation{
+  display: flex;
+  justify-content: center; 
+}
+
+.herohead span{
+  font-size: large;
+}
+.herohead h3{
+  font-size: larger;
+}
+.corousel-head{
+  font-size: larger;
 }
