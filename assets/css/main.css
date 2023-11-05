@@ -3101,7 +3101,7 @@ button:focus:not(:focus-visible) {
 }
 .tp-header__menu ul li .sub-menu {
   position: absolute;
-  width: 230px;
+  width: 300px;
   background: var(--tp-heading-primary);
   padding: 28px;
   top: 110%;
