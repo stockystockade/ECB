@@ -2178,10 +2178,6 @@ div.demo img {
 /*----------------------------------------*/
 /*  2.11 Breadcrumb
 /*----------------------------------------*/
-.breadcrumb__title {
-  font-size: 46px;
-  color: var(--tp-common-white);
-}
 .breadcrumb__list span {
   font-weight: 500;
   color: var(--tp-common-white);
@@ -11635,4 +11631,24 @@ button:focus:not(:focus-visible) {
 /* sub products  */
 .tp-section-box p{  
   text-align: left;
+}
+.breadcrumb__title {
+  font-size: 46px;
+  color: var(--tp-common-white);
+}
+@media(max-width: 400px) {
+  .tp-section-title{
+    font-size: 30px;
+  }
+  .breadcrumb__title {
+    font-size: 30px;
+  }
+}
+@media(max-width: 250px) {
+  .tp-section-title{
+    font-size: 20px;
+  }
+  .breadcrumb__title {
+    font-size: 20px;
+  }
 }
