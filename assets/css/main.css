@@ -11627,8 +11627,11 @@ button:focus:not(:focus-visible) {
   right: -100px;
 }
 
-
 /* sub products  */
+.tp-section-box h2{
+  font-size: 35px;
+  text-align: left;
+}  
 .tp-section-box p{  
   text-align: left;
 }
