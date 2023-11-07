@@ -11629,7 +11629,7 @@ button:focus:not(:focus-visible) {
 
 /* sub products  */
 .tp-section-box h2{
-  font-size: 35px;
+  font-size: 25px;
   text-align: left;
 }  
 .tp-section-box p{  
@@ -11641,7 +11641,7 @@ button:focus:not(:focus-visible) {
 }
 @media(max-width: 400px) {
   .tp-section-title{
-    font-size: 30px;
+    font-size: 25px;
   }
   .breadcrumb__title {
     font-size: 30px;
@@ -11649,9 +11649,12 @@ button:focus:not(:focus-visible) {
 }
 @media(max-width: 250px) {
   .tp-section-title{
-    font-size: 20px;
+    font-size: 15px;
   }
   .breadcrumb__title {
     font-size: 20px;
   }
 }
+
+
+/* structured finance */
