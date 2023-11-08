@@ -7187,7 +7187,7 @@ button:focus:not(:focus-visible) {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
   .choose-left-bg-img img {
-    width: 100%;
+    width: 85%;
   }
 }
 
