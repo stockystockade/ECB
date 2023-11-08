@@ -3066,6 +3066,7 @@ button:focus:not(:focus-visible) {
   .tp-header__main-header {
     margin-left: 216px;
   }
+  
 }
 .tp-header__menu ul li {
   display: inline-block;
@@ -3215,7 +3216,7 @@ button:focus:not(:focus-visible) {
   padding-right: 30px;
   margin-right: 30px;
 }
-.tp-header__right .tp-header-search a:after {
+/* .tp-header__right .tp-header-search a:after {
   content: "";
   background: #e9ebea;
   width: 1px;
@@ -3223,7 +3224,7 @@ button:focus:not(:focus-visible) {
   position: absolute;
   top: 10px;
   left: 47px;
-}
+} */
 .tp-header__right .sm-clist__icon {
   float: left;
 }
