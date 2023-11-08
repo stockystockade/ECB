@@ -3072,6 +3072,7 @@ button:focus:not(:focus-visible) {
   display: inline-block;
   position: relative;
   margin-right: 60px;
+
 }
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
   .tp-header__menu ul li {
@@ -11629,7 +11630,7 @@ button:focus:not(:focus-visible) {
 }
 .tp-header__menu{
   position: relative;
-  right: -100px;
+  right: -150px;
 }
 
 /* sub products  */
@@ -11678,4 +11679,10 @@ button:focus:not(:focus-visible) {
 body{
   padding: 0;
   margin: 0;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1360px) {
+  .tp-header__menu{
+    position: relative;
+    right: -120px;
+  }
 }
