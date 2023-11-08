@@ -11402,6 +11402,10 @@ button:focus:not(:focus-visible) {
   margin-right: 375px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
+  ul{
+    position: relative;
+    left:15%;
+  }
   .cta-mlr {
     margin-left: 216px;
     margin-right: 216px;
