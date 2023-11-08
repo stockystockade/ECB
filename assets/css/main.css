@@ -3031,7 +3031,7 @@ button:focus:not(:focus-visible) {
   z-index: 1;
 }
 .tp-header__main-header {
-  margin-left: 290px;
+  margin-left: 200px;
 }
 @media only screen and (min-width: 1399px) and (max-width: 1499px) {
   .tp-header__main-header {
@@ -3154,12 +3154,12 @@ button:focus:not(:focus-visible) {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-header__bottom {
-    padding: 0 30px 0 30px;
+    padding: 0 0 0 30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-header__bottom {
-    padding: 20px 49px 20px 57px;
+    padding: 20px 0px 20px 57px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11668,4 +11668,9 @@ button:focus:not(:focus-visible) {
 }
 .tp-header__top{
   display: none;
+}
+
+body{
+  padding: 0;
+  margin: 0;
 }
