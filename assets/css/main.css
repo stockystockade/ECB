@@ -11686,3 +11686,39 @@ body{
     right: -120px;
   }
 }
+
+
+/* management team  */
+.managteam{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.managteam1{
+  width: 80%;
+}
+.boardodir{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.boardodir .division{
+  background-color: whitesmoke;
+  padding: 30px 20px;
+}
+.fullname{
+  color: #00715d;
+  font-weight: bold;
+  font-size: large;
+}
+@media(max-width: 1000px){
+  .boardodir{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 600px){
+  .boardodir{
+    grid-template-columns: 1fr;
+  }
+}
