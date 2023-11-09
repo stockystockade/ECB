@@ -4644,7 +4644,7 @@ button:focus:not(:focus-visible) {
   position: relative;
 }
 .footer__widget-info p {
-  color: #98a8a5;
+  color: white;
   margin-bottom: 25px;
 }
 .footer__top {
@@ -4661,7 +4661,7 @@ button:focus:not(:focus-visible) {
   content: "";
   top: 0;
   left: 0;
-  background: #0c2621;
+  /* background: #0c2621; */
   width: 100%;
   height: 100%;
   opacity: 0.965;
