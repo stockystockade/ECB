@@ -11687,7 +11687,6 @@ body{
   }
 }
 
-
 /* management team  */
 .managteam{
   display: flex;
@@ -11700,8 +11699,8 @@ body{
 .boardodir{
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 .boardodir .division{
   background-color: whitesmoke;
